@@ -1,0 +1,127 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main1 {
+    background-color: rgb(255, 255, 255,0.90);
+    width: 400px;
+    margin: auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.224);
+    padding-bottom: 10px;
+}
+
+.lms1 {
+    padding-top: 40px;
+    background: -webkit-linear-gradient(red , purple,red,purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Allura', sans-serif;
+    font-weight: 900;
+    font-size: 27px;
+}
+
+.sign1 {
+    color: #8C55AA;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.un1 {
+width: 76%;
+color: rgb(38, 50, 56);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+background: rgba(107, 101, 101, 0.194);
+padding: 10px 20px;
+border: none;
+border-radius: 20px;
+outline: none;
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.02);
+text-align: center;
+margin-bottom: 10px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.opts {
+color: rgb(38, 50, 56);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+background: rgba(107, 101, 101, 0.194);
+padding: 10px 20px;
+border: none;
+border-radius: 20px;
+outline: none;
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.02);
+text-align: center;
+margin-bottom: 10px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+form.form2 {
+    padding-top: 10px;
+}
+
+.pass1 {
+width: 76%;
+color: rgb(38, 50, 56);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+background: rgba(107, 101, 101, 0.194);
+padding: 10px 20px;
+border: none;
+border-radius: 20px;
+outline: none;
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.02);
+margin-bottom: 10px;
+text-align: center;
+font-family: 'Ubuntu', sans-serif;
+}
+
+
+.un1:focus, .pass1:focus {
+    border: 2px solid #8C55AA !important;
+    
+}
+
+.submit1 {
+  cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #9C27B0, #E040FB);
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.forgot1 {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #da4af4;
+    padding-top: 15px;
+}
+
+a {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #da4af4;
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .main {
+        border-radius: 0px;
+    }
+}
